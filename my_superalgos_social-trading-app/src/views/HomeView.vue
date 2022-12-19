@@ -1,30 +1,32 @@
 <template>
-<div class="container">
-  <div class="sliding-background grid" :style="homepagebackground">
+<div class="home-main-div">
+  <div class="sliding-background">
+  <div class="grid" :style="homepagebackground">
       <div id="platform-div" class="tile-btn" v-on:click="launchPlatform">
-        <h1 id="platform">Launch Platform</h1>
+        <p id="platform">Launch Platform</p>
       </div>
       <div id="social-trading-div" class="tile-btn" v-on:click="startSocialTrading">
-        <h1 id="social-trading-btn">Start Social Trading</h1>
+        <p id="social-trading-btn">Start Social Trading</p>
       </div>
       <div id="machine-learning-div" class="tile-btn" v-on:click="startBitcoinFactory">
-        <h1 id="bitcoin-factory-btn">Bitcoin Factory</h1>
+        <p id="bitcoin-factory-btn">Bitcoin Factory</p>
       </div>
       <div id="docs-div" class="tile-btn" v-on:click="viewDocs" >
-        <h1 id="docs-btn">View Docs</h1>
+        <p id="docs-btn">View Docs</p>
       </div>
       <div id="map-div" class="tile-btn" v-on:click="viewMap" >
-          <h1 id="map-btn">Open Map</h1>
+          <p id="map-btn">Open Map</p>
       </div>
       <div id="charting-space-btn-div" class="tile-btn" v-on:click="openChartingSpace">
-        <h1 id="charting-space-btn">Charting Space</h1>
+        <p id="charting-space-btn">Charting Space</p>
       </div>
       <div id="governance-btn-div" class="tile-btn" v-on:click="openGovernance">
-        <h1 id="governance-btn">Governance</h1>
+        <p id="governance-btn">Governance</p>
       </div>
       <div id="profile-btn-div" class="tile-btn" v-on:click="viewProfile">
-        <h1 id="profile-btn">My Profile</h1>
+        <p id="profile-btn">My Profile</p>
       </div>
+  </div>
   </div>
   </div>
 </template>
@@ -32,7 +34,7 @@
 <script>
 
 import dashboardIcon from "../assets/dashboard.png"
-import homepagebackground from "../assets/homepagebackground.jpg"
+import homepagebackground from "../assets/homePageBackground.jpg"
 
 
 
@@ -84,21 +86,36 @@ import homepagebackground from "../assets/homepagebackground.jpg"
 
 /* Background */
 
-  .container {
-    position: relative;
+  .home-main-div {
     overflow: hidden;
     color: white;
+    align-content: top;
+    border: solid 2px black;
+    border-radius: 8px;
+    margin-right: 1vw;
+    margin-left: 1vw;
+    margin-bottom: 1em;
+    height: 100%;
+    width:  95%;
+    align-self: end;
+    min-height: 300px;
+    box-shadow: 0px 2px 10px 4px rgb(44, 44, 44);
+    justify-self: center;
+    object-fit: cover;
   }
 
   .sliding-background {
-    position: fixed;
-    background: url('../assets/homepagebackground.jpg') repeat-x 0 / 100% auto;
+    display: flex;
+    position: relative;
+    background: url('../assets/homePageBackground.jpg') repeat-x 0 / 100% auto;
     top: 1%;
     left: 0%;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     animation: slide 80s linear infinite;
     transition: all .1s ease-out;
+    object-fit: cover;
+    size: zoom;
 }
 
 @keyframes slide {
@@ -116,8 +133,8 @@ import homepagebackground from "../assets/homepagebackground.jpg"
     'placeholder1 placeholder2 placeholder3 placeholder4';
     justify-self: center;
     align-content: center;
-    height: 100vh;
-    width: 100vw;
+    width: 100%;
+    height: 100%;
   }
 
   
@@ -125,24 +142,29 @@ import homepagebackground from "../assets/homepagebackground.jpg"
   .tile-btn {
     display: flex;
     border: solid 2px rgb(80, 180, 211);
-    height: 20em;
-    width: 20em;
-    margin: 5%;
+    height: 20vw;
+    width: 20vw;
+    margin: 1vw;
     justify-content: center;
     align-items: center;
     background: rgba(24, 25, 26, 0.527);
-    justify-self: center;
+    text-align: center;
     align-self: center;
     cursor: pointer;
     border-radius: 30px;
+    justify-self: center;
+    font-size: 2.8vw;
+    font-weight: 550;
+    max-width: 300px;
+    max-height: 300px;
   }
 
 /* Handle the button hover */
   .tile-btn:hover {
     color: white;
     background-color: rgba(51, 51, 51, 0.726);
-    height: 20em;
-    width: 20em;
+    height: 20vw;
+    width: 20vw;
     border: solid 6px rgb(80, 180, 211);
     }
 
