@@ -1,2 +1,9 @@
 # My_Superalgos_Social-Trading-App
 This is my personal Superalgos Social Trading App in development. This is strictly the UI side of the application created using Vue 3.
+
+## The project can be viewed at the following CodeSandBox link!
+[![View on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/theblockchainarborist/My_Superalgos_Social-Trading-App/draft/romantic-jang?file=%2Fmy_superalgos_social-trading-app%2Fsrc%2Fviews%2FHomeView.vue&selection=%5B%7B%22endColumn%22%3A22%2C%22endLineNumber%22%3A156%2C%22startColumn%22%3A22%2C%22startLineNumber%22%3A156%7D%5D&workspace=%257B%2522activeFileId%2522%253A%2522clbv68n8n000x7pg79vy3glyk%2522%252C%2522openFiles%2522%253A%255B%2522%252FREADME.md%2522%252C%2522%252Fmy_superalgos_social-trading-app%252Fsrc%252Fviews%252FHomeView.vue%2522%255D%252C%2522sidebarPanel%2522%253A%2522EXPLORER%2522%252C%2522gitSidebarPanel%2522%253A%2522COMMIT%2522%252C%2522spaces%2522%253A%257B%2522clbv68nv9001i356ikyjcrvyg%2522%253A%257B%2522key%2522%253A%2522clbv68nv9001i356ikyjcrvyg%2522%252C%2522name%2522%253A%2522Default%2522%252C%2522devtools%2522%253A%255B%257B%2522type%2522%253A%2522UNASSIGNED_PORT%2522%252C%2522port%2522%253A5173%252C%2522url%2522%253A%2522n9lik6-5173.preview.csb.app%2522%252C%2522key%2522%253A%2522clbv6fbgw00dk356imynspg7f%2522%252C%2522isMinimized%2522%253Afalse%257D%252C%257B%2522type%2522%253A%2522TERMINAL%2522%252C%2522shellId%2522%253A%2522clbv69hob001l7pg72o1t9z1j%2522%252C%2522key%2522%253A%2522clbv69gm6005k356ikceeh691%2522%252C%2522isMinimized%2522%253Atrue%257D%255D%257D%257D%252C%2522currentSpace%2522%253A%2522clbv68nv9001i356ikyjcrvyg%2522%252C%2522spacesOrder%2522%253A%255B%2522clbv68nv9001i356ikyjcrvyg%2522%255D%257D)
+
+
+### Also a full screen preview can be viewed at: 
+[![View on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://n9lik6-5173.preview.csb.app/)
